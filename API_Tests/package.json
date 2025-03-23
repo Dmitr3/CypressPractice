@@ -1,0 +1,16 @@
+{
+  "name": "communityprojectapi",
+  "version": "1.0.0",
+  "description": "The goal of this project is to design and implement automated tests for both the User Interface (UI) and Application Programming Interface (API) layers of our application. The tests will ensure reliability, stability, and performance by automating the validation of key functionality across various components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-terminal-report": "^7.1.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Size": {
+    "XS": "[option-label='XS']",
+    "M": "[option-label='M']",
+    "L": "[option-label='L']"
+  },
+  "Color": {
+    "Blue": "[option-label='Blue']",
+    "Green": "[option-label='Green']"
+  },
+  "EcoCollection": {
+    "NoEco": "#narrow-by-list div div[aria-hidden='false'] ol li a[href*='eco_collection=0']"
+  },
+  "PerformanceFabric": {
+    "NoPerfFabric": "#narrow-by-list div div[aria-hidden='false'] ol li a[href*='performance_fabric=0']"
+  },
+  "Price": {
+    "FortyFifty": "#narrow-by-list div div[aria-hidden='false'] ol li a[href*='price=40-50']",
+    "ThirtyForty": "#narrow-by-list div div[aria-hidden='false'] ol li a[href*='price=30-40']"
+  },
+  "Sale": {
+    "NoSale": "#narrow-by-list div div[aria-hidden='false'] ol li a[href*='sale=0']",
+    "YesSale": "#narrow-by-list div div[aria-hidden='false'] ol li a[href*='sale=1']"
+  },
+  "ErinRecommends": {
+    "NotRecommended": "#narrow-by-list div.filter-options-item.active div ol li:nth-child(2) a",
+    "Recommended": "#narrow-by-list div.filter-options-item.active div ol li:first-child a"
+  },
+  "New": {
+    "NotNew": "#narrow-by-list div.filter-options-item.active div ol li:nth-child(2) a",
+    "YesNew": "#narrow-by-list div.filter-options-item.active div ol li:first-child a"
+  },
+  "Menu": {
+    "New":"li.level0.nav-1.category-item.first.level-top.ui-menu-item",
+    "Women":"li.level0.nav-2.category-item.level-top.parent.ui-menu-item",
+    "Men":"li.level0.nav-3.category-item.level-top.parent.ui-menu-item",
+    "Gear":"li.level0.nav-4.category-item.level-top.parent.ui-menu-item",
+    "Training":"li.level0.nav-5.category-item.level-top.parent.ui-menu-item",
+    "Sale":"li.level0.nav-6.category-item.last.level-top.ui-menu-item"
+  }
+}
